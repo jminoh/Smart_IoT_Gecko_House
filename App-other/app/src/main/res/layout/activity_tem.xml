@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".TemActivity">
+
+    <EditText
+        android:id="@+id/temtext"
+        android:layout_width="323dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="208dp"
+        android:hint=" 원하시는 온도를 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColor="#0C0000"
+        android:textColorHint="#000E0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/humtext"
+        android:layout_width="323dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="268dp"
+        android:hint=" 원하시는 습도를 입력해주세요."
+        android:inputType="textPersonName"
+        android:textColor="#0C0000"
+        android:textColorHint="#000E0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnsend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btntemback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
